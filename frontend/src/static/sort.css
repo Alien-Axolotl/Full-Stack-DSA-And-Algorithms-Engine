@@ -1,0 +1,38 @@
+.sort-canvas {
+    width: 100%;
+    height: 320px;
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 6px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.sort-bar {
+    flex: 1;
+    max-width: 48px;
+    min-height: 4px;
+    background: linear-gradient(180deg, #3b82f6, #1e1b4b);
+    border-radius: 6px 6px 0 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.sort-bar-comparing {
+    background: linear-gradient(180deg, #facc15, #b45309);
+}
+
+.sort-bar-swapped {
+    background: linear-gradient(180deg, #22c55e, #14532d);
+}
+
+.sort-bar-label {
+    position: absolute;
+    top: -22px;
+    font-size: 0.75rem;
+    color: #e5e7eb;
+}

@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# DISTRIBUTION / PACKAGING
+build/
+dist/
+*.egg-info/
+
+# NODE REACT VITE
+node_modules/
+
+# LOCAL ENVIRONMENT FILES
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/

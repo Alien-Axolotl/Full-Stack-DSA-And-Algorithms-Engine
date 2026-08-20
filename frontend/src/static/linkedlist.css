@@ -1,0 +1,30 @@
+body {
+    zoom: 1.5;
+    min-height: 100vh;
+}
+
+.node_container {
+    display : flex ;
+    flex-direction: row;
+    justify-content : left;
+    align-items: center;
+
+    min-height: 40vh;
+}
+
+.node-box {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 2px solid #333;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.node-arrow {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #555;
+}
